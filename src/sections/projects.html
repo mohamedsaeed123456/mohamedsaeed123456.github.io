@@ -1,0 +1,16 @@
+    <section class="work" id="projects">
+      <div class="sec-head">
+        <h2>{{ projects_ui.title }}</h2>
+        <p>{{ projects_ui.intro }}</p>
+      </div>
+      <div class="filters" role="group" aria-label="{{ projects_ui.filter_label }}">
+{% for f in filters %}
+        <button class="chip{% if f.first %} on{% endif %}" data-filter="{{ f.id }}" aria-pressed="{{ f.pressed }}"><bdi>{{ f.label }}</bdi></button>
+{% endfor %}
+      </div>
+      <ul class="rows" id="rows">
+{% for p in projects %}
+        <li data-tags="{{ p.tags }}"><div><h3>{{ p.name }}</h3><p>{{ p.desc }}</p></div><span class="tech" dir="ltr">{{ p.tech }}</span></li>
+{% endfor %}
+      </ul>
+    </section>

@@ -1,0 +1,46 @@
+.hero {
+  display: grid;
+  grid-template-columns: 1.15fr .85fr;
+  gap: 48px;
+  align-items: center;
+  min-height: calc(100vh - 64px);
+  padding-block: 72px 56px;
+}
+
+.where {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-block-end: 22px;
+  color: var(--sage);
+  font-weight: 600;
+}
+.where::before {
+  content: "";
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: var(--sage);
+  box-shadow: 0 0 0 0 rgba(127, 200, 169, .6);
+  animation: ping 2.4s infinite;
+}
+
+.hero h1 { font-size: clamp(2.5rem, 5.6vw, 4.4rem); font-weight: 800; }
+.lead { max-width: 34em; margin-block-start: 26px; color: var(--mute); font-size: 1.2rem; }
+
+.flow {
+  margin: 0;
+  padding: 18px 18px 14px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-l);
+  background: linear-gradient(160deg, var(--panel), var(--panel-2));
+}
+.flow svg { display: block; width: 100%; height: auto; }
+.flow figcaption { margin-block-start: 4px; color: var(--mute); font-size: .9rem; text-align: center; }
+
+.wire { fill: none; stroke: var(--line); stroke-width: 2; stroke-dasharray: 5 7; }
+.wire-back { stroke: var(--wire-back); }
+
+.node rect { fill: var(--panel-2); stroke: var(--line); stroke-width: 1.5; transition: fill .3s, stroke .3s; }
+.node .t1 { fill: var(--sand); font: 700 18px var(--font-display); }
+.node .t2 { fill: var(--mute); font: 500 13px var(--font-body); }

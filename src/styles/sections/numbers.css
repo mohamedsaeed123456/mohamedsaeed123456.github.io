@@ -1,0 +1,18 @@
+.numbers {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-inline: var(--gutter);
+  padding: 0;
+  border-block: 1px solid var(--line);
+}
+.numbers > div { padding: 34px 24px; border-inline-start: 1px solid var(--line); }
+.numbers > div:first-child { padding-inline-start: 0; border-inline-start: 0; }
+
+.numbers b {
+  display: block;
+  color: var(--saffron);
+  font: 800 clamp(2rem, 4vw, 3rem) var(--font-display);
+  letter-spacing: -.03em;
+  text-align: start;
+}
+.numbers span { color: var(--mute); font-size: .98rem; }

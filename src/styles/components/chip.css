@@ -1,0 +1,14 @@
+.filters { display: flex; flex-wrap: wrap; gap: 8px; margin-block-end: 22px; }
+
+.chip {
+  padding: 7px 16px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  background: transparent;
+  color: var(--mute);
+  font: 600 .95rem var(--font-body);
+  cursor: pointer;
+  transition: color .2s, border-color .2s, background-color .2s;
+}
+.chip:hover { color: var(--sand); border-color: var(--mute); }
+.chip.on { background: var(--sand); border-color: var(--sand); color: var(--ink); }

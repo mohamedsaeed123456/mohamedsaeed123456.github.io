@@ -1,0 +1,14 @@
+.rows { margin: 0; padding: 0; list-style: none; border-block-start: 1px solid var(--line); }
+.rows li {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 28px;
+  padding: 24px 8px;
+  border-block-end: 1px solid var(--line);
+  transition: background-color .25s, padding .25s;
+}
+.rows li:hover { padding-inline: 20px; background: var(--panel); }
+.rows li[hidden] { display: none; }
+.rows h3 { margin-block-end: 6px; font-size: 1.4rem; }
+.rows p { max-width: 44em; color: var(--mute); }
+.tech { align-self: start; color: var(--saffron); font-weight: 500; font-size: .95rem; text-align: start; }

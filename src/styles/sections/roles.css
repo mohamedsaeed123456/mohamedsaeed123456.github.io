@@ -1,0 +1,33 @@
+.roles { background: linear-gradient(180deg, transparent, var(--panel-2), transparent); }
+.roles-ui { display: grid; grid-template-columns: 300px 1fr; gap: 28px; }
+
+.tablist { display: flex; flex-direction: column; gap: 8px; }
+.tablist button {
+  padding: 14px 16px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  background: transparent;
+  color: var(--mute);
+  font: 600 1rem var(--font-body);
+  text-align: start;
+  cursor: pointer;
+  transition: color .2s, border-color .2s, background-color .2s;
+}
+.tablist button:hover { color: var(--sand); border-color: var(--mute); }
+.tablist button[aria-selected="true"] { background: var(--saffron); border-color: var(--saffron); color: var(--ink); }
+
+.panel {
+  min-height: 320px;
+  padding: 32px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: var(--panel);
+  transition: background-color .3s, border-color .3s;
+}
+.panel h3 { margin-block-end: 10px; font-size: 1.7rem; }
+.panel .sum { max-width: 36em; margin-block-end: 22px; color: var(--mute); }
+.panel h4 { margin: 0 0 8px; color: var(--saffron); font: 600 .95rem var(--font-body); }
+.proof { margin: 0; padding-inline-start: 18px; }
+.proof li { margin-block: 4px; }
+.panel .dl { margin-block-start: 22px; }
+.panel .note { margin-block-start: 18px; color: var(--mute); font-size: .95rem; }

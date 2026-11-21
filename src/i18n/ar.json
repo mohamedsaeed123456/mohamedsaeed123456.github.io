@@ -1,0 +1,146 @@
+{
+  "locale": {"lang": "ar", "dir": "rtl", "og": "ar_EG", "alt_lang": "en", "alt_href": "../", "number_locale": "en-US", "fonts": "https://fonts.googleapis.com/css2?family=Cairo:wght@600;700;800&family=IBM+Plex+Sans+Arabic:wght@400;500;600&display=swap"},
+  "meta": {
+    "title": "محمد سعيد | مطوّر Full-Stack",
+    "description": "محمد سعيد مطوّر Full-Stack من القاهرة، يبني منصات SaaS وواجهات API باستخدام Laravel وNode.js وTypeScript وVue.js وASP.NET Core وSpring Boot.",
+    "og_description": "مطوّر Full-Stack يبني منصات SaaS وواجهات API. مسؤول عن الـ backend الخاص بمنصة Markly."
+  },
+  "ui": {
+    "skip": "انتقل إلى المحتوى",
+    "name": "محمد سعيد",
+    "home_label": "محمد سعيد، الصفحة الرئيسية",
+    "nav_label": "التنقل الرئيسي",
+    "theme_to_light": "التبديل إلى المظهر الفاتح",
+    "theme_to_dark": "التبديل إلى المظهر الداكن",
+    "theme_title": "تبديل المظهر",
+    "switch_label": "English",
+    "switch_title": "عرض الصفحة بالإنجليزية"
+  },
+  "nav": {"markly": "Markly", "roles": "الأدوار", "projects": "المشاريع", "skills": "المهارات", "experience": "الخبرة", "contact": "تواصل معي"},
+  "hero": {
+    "where": "مطوّر Full-Stack، القاهرة",
+    "title_html": "أبني الواجهة،<br>والـ API الذي يخدمها،<br>وقاعدة البيانات التي تحتها.",
+    "lead": "خمس سنوات في بناء منتجات الويب باستخدام Laravel وNode.js وTypeScript وVue.js. أتولّى الـ backend الخاص بمنصة Markly، وهي منصة SaaS متعددة المستأجرين (multi-tenant) يستخدمها عملاء فعليون.",
+    "cv": "تحميل السيرة الذاتية",
+    "open_markly": "افتح Markly",
+    "roles": "كيف أفيدك؟",
+    "diagram_label": "رسم توضيحي: عميل Vue.js يرسل طلبًا إلى API مبني بـ Hono.js، والـ API يستعلم من PostgreSQL",
+    "caption": "كيف يمرّ الطلب داخل Markly",
+    "n1_title": "عميل Vue.js", "n1_sub": "Axios والأدوار والتوجيه",
+    "n2_title": "Hono.js API", "n2_sub": "JWT وRBAC والمستأجرون",
+    "n3_title": "PostgreSQL", "n3_sub": "Drizzle ORM"
+  },
+  "numbers": {"label": "أرقام رئيسية"},
+  "markly": {
+    "title": "Markly",
+    "intro": "منصة SaaS متعددة المستأجرين لفرق التسويق. بنيتها مرتين: أولًا بـ Laravel وVue.js، ثم من الصفر على Node.js وPostgreSQL.",
+    "stack_title": "التقنيات",
+    "stack": "Node.js، TypeScript، Hono.js، PostgreSQL، Drizzle ORM، Vue.js، Docker، GitHub Actions",
+    "v1_title": "الإصدار الأول",
+    "v1": "Laravel، MySQL، Vue.js",
+    "open": "افتح التطبيق الحي"
+  },
+  "roles": {
+    "title": "اختر الدور",
+    "intro": "اختر الوظيفة التي توظّف لها، واطّلع على ما أقدّمه فيها، ثم حمّل السيرة الذاتية المخصّصة لها.",
+    "tablist": "الأدوار",
+    "tools": "الأدوات",
+    "proof_title": "أين نفّذت ذلك",
+    "download": "تحميل السيرة الذاتية لهذا الدور"
+  },
+  "projects": {
+    "title": "المشاريع",
+    "intro": "أعمال منتجات، وأعمال عملاء، ومشاريع تدريبية.",
+    "filter_label": "تصفية المشاريع حسب التقنية"
+  },
+  "skills": {"title": "المهارات"},
+  "experience": {"title": "الخبرة"},
+  "contact": {
+    "title": "لنتحدث عن مطوّرك القادم.",
+    "intro": "البريد الإلكتروني أسرع وسيلة للوصول إليّ.",
+    "langs_label": "اللغات"
+  },
+  "footer": {"name": "محمد سعيد، القاهرة", "privacy": "تُحتسب الزيارات دون ملفات تعريف الارتباط أو بيانات شخصية."},
+
+  "lists": {
+    "numbers": [
+      {"id": "years", "label": "سنوات في بناء منتجات الويب"},
+      {"id": "users", "label": "مستخدم فعلي على Markly"},
+      {"id": "load", "label": "مستخدم في اختبارات الحمل"},
+      {"id": "platforms", "label": "منصات تواصل اجتماعي تم ربطها"}
+    ],
+    "steps": [
+      {"id": "auth", "title": "تسجيل الدخول والدعوات", "desc": "مصادقة JWT والأدوار والمستخدمون والشركات. أول ما أعدت بناءه، لأن كل شيء آخر يعتمد عليه."},
+      {"id": "tasks", "title": "المهام", "desc": "لوحة مهام على طراز ClickUp مع تحديثات لحظية."},
+      {"id": "cms", "title": "إدارة المحتوى والنشر الاجتماعي", "desc": "النشر على Meta وThreads وX وLinkedIn من مكان واحد."},
+      {"id": "chat", "title": "الدردشة", "desc": "مراسلة لحظية عبر WebSockets."},
+      {"id": "billing", "title": "الفوترة", "desc": "اشتراكات Paddle مع الباقات وحدود الميزات وتتبّع الاستخدام والإضافات."}
+    ],
+    "roles": [
+      {"id": "full", "tab": "مطوّر Full-Stack", "title": "مطوّر Full-Stack", "sum": "أنقل الميزة من قاعدة البيانات إلى الشاشة، وأتحمّل مسؤوليتها في بيئة الإنتاج.",
+       "tags": ["Laravel وVue.js", "Node.js وTypeScript", "PostgreSQL وMySQL", "Docker", "GitHub Actions"],
+       "proof": ["Markly: مسؤول الـ backend وجزء من واجهة Vue.js، وأعدت بناءه من الصفر على Node.js", "Fiedk: واجهة Vue.js الكاملة لتطبيق توصيل", "متجر طبي إلكتروني: المتجر ولوحة الإدارة بـ Laravel"]},
+      {"id": "backend", "tab": "مطوّر Backend", "title": "مطوّر Backend", "sum": "واجهات API وقواعد بيانات وأنظمة SaaS متعددة المستأجرين، مع اختيار التقنية المناسبة لكل منتج.",
+       "tags": ["Node.js وTypeScript", "Laravel", "ASP.NET Core", "Spring Boot", "PostgreSQL وMySQL وSQL Server", "JWT وRBAC", "Docker"],
+       "proof": ["Markly: مسؤول الـ backend، بدأ بـ Laravel ثم أعدت بناءه على Node.js وPostgreSQL", "API للتجارة الإلكترونية: إتمام طلب بمعاملات (transactions) تحافظ على اتساق المخزون", "التكاملات: Meta وThreads وX وLinkedIn وPaddle"],
+       "note": "خبرتي الإنتاجية في Laravel وNode.js. أما ASP.NET Core وSpring Boot فمن العمل الحر والمشاريع الشخصية."},
+      {"id": "frontend", "tab": "مطوّر Frontend", "title": "مطوّر Frontend", "sum": "واجهات Vue.js تتعامل مع واجهات API حقيقية، مع توجيه حسب الأدوار وطبقة API منظّمة.",
+       "tags": ["Vue.js", "JavaScript وTypeScript", "Axios", "React.js", "Angular", "HTML وCSS"],
+       "proof": ["Fiedk: الواجهة الكاملة، بأدوار المستخدمين وباقات الخدمات والتوجيه الديناميكي", "Markly: واجهة عدة وحدات، وواجهة وحدات أخرى كاملة", "دورة Vue.js على Udemy"]},
+      {"id": "node", "tab": "Backend، Node.js", "title": "مطوّر Backend، Node.js", "sum": "واجهات REST وخدمات لحظية على Node.js وTypeScript وPostgreSQL، مع اختبارات وهندسة نظيفة.",
+       "tags": ["Hono.js", "TypeScript", "PostgreSQL", "Drizzle ORM", "JWT وRBAC", "WebSockets"],
+       "proof": ["إعادة بناء Markly: المصادقة والدعوات والمهام والدردشة وإدارة المحتوى والفوترة", "API للتجارة الإلكترونية: المتغيرات والمخزون وإتمام الطلب والطلبات بمعاملات", "1,000 مستخدم فعلي، واختبار حمل بأكثر من 10,000"]},
+      {"id": "php", "tab": "Backend، PHP وLaravel", "title": "مطوّر Backend، PHP وLaravel", "sum": "تطبيقات Laravel وأنظمة إدارة وفوترة، من أول مواقعي بـ PHP الخام إلى منصة SaaS متعددة المستأجرين.",
+       "tags": ["Laravel", "Eloquent ORM", "MySQL", "Blade", "Composer", "اختبارات الوحدة"],
+       "proof": ["الإصدار الأول من Markly: Laravel وMySQL وVue.js", "ConnectIN CRM: العملاء والعملاء المحتملون والمتابعات", "مواقع لعملاء في السعودية والإمارات: سلة شراء ومدفوعات ورسائل SMS"]},
+      {"id": "net", "tab": "Backend، ASP.NET Core", "title": "مطوّر Backend، ASP.NET Core", "sum": "تطبيقات ASP.NET Core مع Entity Framework Core والمصادقة والأدوار والمعالجة غير المتزامنة.",
+       "tags": ["ASP.NET Core MVC وWeb API", "C#", "Entity Framework Core", "SQL Server", "LINQ"],
+       "proof": ["تطبيق تواصل اجتماعي: مصادقة ودردشة لحظية ورفع وسائط", "تطبيقات ASP.NET Core لعملاء في العمل الحر"],
+       "note": "عملي مع .NET من العمل الحر والمشاريع الشخصية. خبرتي الإنتاجية في Laravel وNode.js."},
+      {"id": "java", "tab": "Backend، Java Spring Boot", "title": "مطوّر Backend، Java Spring Boot", "sum": "واجهات REST بـ Spring Boot مع Spring Data JPA وصلاحيات حسب الدور وWebSockets واختبارات.",
+       "tags": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "JUnit"],
+       "proof": ["إدارة الموظفين بـ Spring Boot وAngular: أدوار وإشعارات WebSocket واختبارات", "تطبيقات Spring Boot لعملاء في العمل الحر"],
+       "note": "عملي مع Java من العمل الحر والمشاريع الشخصية. خبرتي الإنتاجية في Laravel وNode.js."}
+    ],
+    "filters": [
+      {"id": "all", "label": "الكل"}, {"id": "node", "label": "Node.js"}, {"id": "php", "label": "PHP"},
+      {"id": "vue", "label": "Vue.js"}, {"id": "net", "label": ".NET"}, {"id": "java", "label": "Java"}
+    ],
+    "projects": [
+      {"id": "markly", "name": "Markly", "desc": "منصة SaaS متعددة المستأجرين: مهام ودردشة ونماذج ومشاريع وإدارة محتوى مع نشر اجتماعي وفوترة. تعمل فعليًا."},
+      {"id": "fiedk", "name": "Fiedk", "desc": "تطبيق جوال للتوصيل والخدمات يشبه Talabat. بنيت الواجهة بالكامل: أدوار المستخدمين وباقات الخدمات والتوجيه الديناميكي وطبقة API معيارية."},
+      {"id": "ecommerce", "name": "API للتجارة الإلكترونية", "desc": "الكتالوج والمتغيرات والمخزون والسلة وإتمام الطلب والطلبات، بمعاملات تحافظ على اتساق الطلبات والمخزون."},
+      {"id": "medical", "name": "متجر طبي إلكتروني", "desc": "بحث وتصفية للمنتجات، وسلة، وإتمام طلب للزائر مع التحقق من المخزون، ولوحة إدارة بسجل تغييرات قائم على نمط Observer."},
+      {"id": "crm", "name": "ConnectIN CRM", "desc": "العملاء والعملاء المحتملون وأنشطة المتابعة مع صلاحيات حسب الدور. بُني لصالح OSolutions."},
+      {"id": "social", "name": "تطبيق تواصل اجتماعي", "desc": "مصادقة ودردشة لحظية ورفع الصور والفيديو."},
+      {"id": "employees", "name": "إدارة الموظفين", "desc": "الموظفون والأقسام والأدوار مع صلاحيات حسب الدور وإشعارات WebSocket واختبارات آلية."},
+      {"id": "sites", "name": "مواقع عملاء", "desc": "موقع اشتراك في باقات تلفزيونية بسلة ومدفوعات ورسائل SMS، وموقع مركز مجتمعي لرعاية الأطفال لعميل سعودي، وسلة شراء."}
+    ],
+    "skills": [
+      {"id": "languages", "dt": "اللغات"},
+      {"id": "backend", "dt": "Backend"},
+      {"id": "frontend", "dt": "Frontend"},
+      {"id": "data", "dt": "البيانات"},
+      {"id": "architecture", "dt": "المعمارية"},
+      {"id": "integrations", "dt": "التكاملات"},
+      {"id": "delivery", "dt": "التسليم والنشر"},
+      {"id": "ai", "dt": "مع الذكاء الاصطناعي", "dd": "Claude Code وCursor وGitHub Copilot وChatGPT، مع مراجعة كل تغيير"}
+    ],
+    "experience": [
+      {"id": "osolutions", "time": "ديسمبر 2023 – الآن", "title": "مطوّر Full-Stack، OSolutions", "desc_html": "مسؤول عن الـ backend الخاص بمنصة Markly، وساهمت في واجهة Vue.js. أعدت بناء المنصة على Node.js وTypeScript وPostgreSQL، وأدرت الحاويات والتكامل والنشر المستمر (CI/CD) بـ Docker وGitHub Actions."},
+      {"id": "freelance", "time": "سبتمبر 2020 – الآن", "title": "مطوّر Full-Stack مستقل", "desc_html": "تطبيقات ومواقع ويب لعملاء في السعودية والإمارات. بدأت بـ PHP الخام، ثم انتقلت إلى Laravel وASP.NET Core وSpring Boot. ملفي على <a href=\"{khamsat}\" target=\"_blank\" rel=\"noopener\">خمسات</a>."},
+      {"id": "university", "time": "2018 – 2022", "title": "جامعة حلوان", "desc_html": "بكالوريوس الحاسبات والذكاء الاصطناعي، تخصص علوم الحاسب. تقدير امتياز مع مرتبة الشرف، المعدل التراكمي 3.55 من 4.00."}
+    ],
+    "langs": [
+      {"id": "ar", "name": "العربية", "level": "اللغة الأم", "aria": "العربية: اللغة الأم، 5 من 5"},
+      {"id": "en", "name": "الإنجليزية", "level": "متقدم", "aria": "الإنجليزية: متقدم، 4 من 5"}
+    ],
+    "links": [
+      {"id": "email", "name": "البريد الإلكتروني"},
+      {"id": "linkedin", "name": "LinkedIn"},
+      {"id": "github", "name": "GitHub"},
+      {"id": "cv", "name": "سيرتي الذاتية", "small": "تحميل PDF، صفحتان"},
+      {"id": "khamsat", "name": "خمسات", "small": "ملفي كمستقل وأعمالي مع العملاء"}
+    ]
+  }
+}

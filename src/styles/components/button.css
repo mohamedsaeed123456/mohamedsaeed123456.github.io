@@ -1,0 +1,18 @@
+.actions { display: flex; flex-wrap: wrap; gap: 12px; margin-block-start: 30px; }
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 12px 20px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-s);
+  background: var(--panel);
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform .2s, border-color .2s, background-color .2s, filter .2s;
+}
+.btn:hover { border-color: var(--saffron); transform: translateY(-2px); }
+
+.btn--primary, .btn.primary { background: var(--saffron); border-color: var(--saffron); color: var(--ink); }
+.btn--primary:hover, .btn.primary:hover { filter: brightness(1.08); }
+.btn.ghost { background: transparent; }

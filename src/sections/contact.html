@@ -1,0 +1,23 @@
+    <section class="contact" id="contact">
+      <div class="contact-grid">
+        <div class="contact-intro">
+          <h2>{{ contact.title }}</h2>
+          <p>{{ contact.intro }}</p>
+          <div class="langs" role="group" aria-label="{{ contact.langs_label }}">
+{% for l in langs %}
+            <div class="lang">
+              <div class="lang-top"><b>{{ l.name }}</b><span>{{ l.level }}</span></div>
+              <div class="meter" role="img" aria-label="{{ l.aria }}">{{ l.bars|safe }}</div>
+            </div>
+{% endfor %}
+          </div>
+        </div>
+        <ul class="links">
+{% for k in links %}
+          <li{% if k.wide %} class="wide"{% endif %}><a href="{{ k.href }}"{% if k.external %} target="_blank" rel="noopener"{% endif %}{% if k.download %} download{% endif %}>
+            <span class="ico">{{ k.svg|safe }}</span>
+            <span class="txt"><b>{{ k.name }}</b><small>{{ k.small }}</small></span></a></li>
+{% endfor %}
+        </ul>
+      </div>
+    </section>

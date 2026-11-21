@@ -1,0 +1,8 @@
+    <section class="path" id="experience">
+      <div class="sec-head"><h2>{{ experience_ui.title }}</h2></div>
+      <ol class="timeline">
+{% for e in experience %}
+        <li><time>{{ e.time }}</time><div><h3>{{ e.title }}</h3><p>{{ e.desc_html|safe }}</p></div></li>
+{% endfor %}
+      </ol>
+    </section>

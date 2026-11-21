@@ -1,0 +1,38 @@
+/* Animation lives here so reduced-motion handling stays in one place. */
+@keyframes ping {
+  70% { box-shadow: 0 0 0 10px rgba(127, 200, 169, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(127, 200, 169, 0); }
+}
+@keyframes rise { from { opacity: 0; transform: translateY(16px); } to { opacity: 1; transform: none; } }
+@keyframes dash { to { stroke-dashoffset: -24; } }
+@keyframes glow { 0%, 100% { stroke: var(--line); } 12%, 24% { stroke: var(--saffron); } }
+@keyframes swap { from { opacity: 0; transform: translateX(var(--shift)); } to { opacity: 1; transform: none; } }
+
+.hero-copy > * { animation: rise .8s cubic-bezier(.2, .7, .2, 1) both; }
+.hero-copy > :nth-child(2) { animation-delay: .08s; }
+.hero-copy > :nth-child(3) { animation-delay: .2s; }
+.hero-copy > :nth-child(4) { animation-delay: .32s; }
+
+.wire { animation: dash 1.4s linear infinite; }
+.n1 rect { animation: glow 5.2s ease-in-out 0s infinite; }
+.n2 rect { animation: glow 5.2s ease-in-out 1.3s infinite; }
+.n3 rect { animation: glow 5.2s ease-in-out 2.6s infinite; }
+
+.panel.swap { animation: swap .35s ease both; }
+
+.meter i {
+  transition: transform .5s cubic-bezier(.2, .7, .2, 1), opacity .4s;
+}
+.meter i:nth-child(2) { transition-delay: .08s; }
+.meter i:nth-child(3) { transition-delay: .16s; }
+.meter i:nth-child(4) { transition-delay: .24s; }
+.meter i:nth-child(5) { transition-delay: .32s; }
+.meter.ready:not(.in) i { transform: scaleX(0); opacity: 0; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}

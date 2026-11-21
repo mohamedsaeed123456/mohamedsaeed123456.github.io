@@ -1,0 +1,46 @@
+/* Design tokens. Palette: ink, panel, sand, saffron (the one accent), sage (status). */
+:root {
+  color-scheme: dark;
+
+  --ink: #0B1A24;
+  --panel: #112431;
+  --panel-2: #16303f;
+  --line: #244454;
+  --sand: #EDE6D6;
+  --mute: #93A8B1;
+  --saffron: #F2B84B;
+  --sage: #7FC8A9;
+
+  --bar: rgba(11, 26, 36, .82);
+  --wire-back: #1c3a4a;
+  --glow-1: rgba(242, 184, 75, .10);
+  --glow-2: rgba(127, 200, 169, .07);
+
+  --font-display: "Bricolage Grotesque", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Figtree", "Segoe UI", system-ui, sans-serif;
+
+  --width: 1120px;
+  --gutter: max(20px, calc((100vw - var(--width)) / 2));
+  --radius-s: 12px;
+  --radius-m: 20px;
+  --radius-l: 24px;
+  --shift: 10px; /* direction-aware slide distance, flipped in rtl.css */
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+
+  --ink: #F3F6F8;
+  --panel: #FFFFFF;
+  --panel-2: #E8EFF3;
+  --line: #CFDCE4;
+  --sand: #0E2230;
+  --mute: #4F6B79;
+  --saffron: #B36B00;
+  --sage: #23795B;
+
+  --bar: rgba(243, 246, 248, .85);
+  --wire-back: #DCE6EC;
+  --glow-1: rgba(179, 107, 0, .08);
+  --glow-2: rgba(35, 121, 91, .06);
+}

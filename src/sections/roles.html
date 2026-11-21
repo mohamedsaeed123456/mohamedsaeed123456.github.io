@@ -1,0 +1,15 @@
+    <section class="roles" id="roles">
+      <div class="sec-head">
+        <h2>{{ roles_ui.title }}</h2>
+        <p>{{ roles_ui.intro }}</p>
+      </div>
+      <div class="roles-ui">
+        <div class="tablist" role="tablist" aria-label="{{ roles_ui.tablist }}">
+{% for r in roles %}
+          <button role="tab" aria-selected="{{ r.selected }}" aria-controls="panel" id="t-{{ r.id }}" data-role="{{ r.id }}">{{ r.tab }}</button>
+{% endfor %}
+        </div>
+        <div class="panel" id="panel" role="tabpanel" aria-live="polite" tabindex="0"></div>
+      </div>
+      <script type="application/json" id="roles-data">{{ roles_json|safe }}</script>
+    </section>

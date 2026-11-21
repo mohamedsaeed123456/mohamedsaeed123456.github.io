@@ -1,0 +1,5 @@
+    <section class="numbers" aria-label="{{ numbers_ui.label }}">
+{% for n in numbers %}
+      <div><b dir="ltr" data-count="{{ n.count }}" data-suffix="{{ n.suffix }}">{{ n.initial }}</b><span>{{ n.label }}</span></div>
+{% endfor %}
+    </section>

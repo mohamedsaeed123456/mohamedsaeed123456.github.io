@@ -1,0 +1,64 @@
+{
+  "url": "https://mohamedsaeed123456.github.io",
+  "email": "mohamedsaeed5101@gmail.com",
+  "phone": "+20 114 598 8756",
+  "linkedin": "https://www.linkedin.com/in/mohamed-saeed-37bb151a9/",
+  "github": "https://github.com/mohamedsaeed123456",
+  "khamsat": "https://khamsat.com/user/mohamedsaeed1111",
+  "markly": "https://app.markly.digital/",
+
+  "numbers": [
+    {"id": "years", "count": 5, "suffix": "+", "initial": "5+"},
+    {"id": "users", "count": 1000, "suffix": "", "initial": "1,000"},
+    {"id": "load", "count": 10000, "suffix": "+", "initial": "10,000+"},
+    {"id": "platforms", "count": 4, "suffix": "", "initial": "4"}
+  ],
+
+  "steps": [{"id": "auth"}, {"id": "tasks"}, {"id": "cms"}, {"id": "chat"}, {"id": "billing"}],
+
+  "roles": [
+    {"id": "full", "cv": "Full-Stack"},
+    {"id": "backend", "cv": "Backend"},
+    {"id": "frontend", "cv": "Frontend"},
+    {"id": "node", "cv": "Backend-NodeJS"},
+    {"id": "php", "cv": "Backend-PHP-Laravel"},
+    {"id": "net", "cv": "Backend-DotNet"},
+    {"id": "java", "cv": "Backend-Java"}
+  ],
+
+  "filters": [{"id": "all"}, {"id": "node"}, {"id": "php"}, {"id": "vue"}, {"id": "net"}, {"id": "java"}],
+
+  "projects": [
+    {"id": "markly", "tags": "node php vue", "tech": "Node.js, TypeScript, Hono.js, PostgreSQL, Vue.js"},
+    {"id": "fiedk", "tags": "vue", "tech": "Vue.js, Axios, REST APIs"},
+    {"id": "ecommerce", "tags": "node", "tech": "Node.js, Hono.js, TypeScript, PostgreSQL, Drizzle"},
+    {"id": "medical", "tags": "php", "tech": "Laravel, Blade, MySQL"},
+    {"id": "crm", "tags": "php", "tech": "Laravel, Blade, MySQL"},
+    {"id": "social", "tags": "net", "tech": "ASP.NET Core MVC, Entity Framework Core"},
+    {"id": "employees", "tags": "java", "tech": "Spring Boot, Angular, MySQL"},
+    {"id": "sites", "tags": "php", "tech": "Native PHP, MySQL"}
+  ],
+
+  "skills": [
+    {"id": "languages", "dd": "PHP, TypeScript, JavaScript, C#, Java, SQL, HTML, CSS"},
+    {"id": "backend", "dd": "Laravel, Node.js, Hono.js, Bun, ASP.NET Core, Spring Boot, REST APIs, WebSockets, JWT, RBAC"},
+    {"id": "frontend", "dd": "Vue.js, React.js, Angular, Blade, Razor, Bootstrap, jQuery"},
+    {"id": "data", "dd": "PostgreSQL, MySQL, SQL Server, Drizzle, Eloquent, Entity Framework Core, Spring Data JPA"},
+    {"id": "architecture", "dd": "Clean architecture, repository pattern, design patterns, SOLID, multi-tenant SaaS"},
+    {"id": "integrations", "dd": "Meta, Threads, X and LinkedIn APIs, OAuth, Paddle, AWS S3"},
+    {"id": "delivery", "dd": "Docker, Docker Compose, GitHub Actions, Linux, Git, Composer, unit and integration tests"},
+    {"id": "ai"}
+  ],
+
+  "experience": [{"id": "osolutions"}, {"id": "freelance"}, {"id": "university"}],
+
+  "langs": [{"id": "ar", "filled": 5}, {"id": "en", "filled": 4}],
+
+  "links": [
+    {"id": "email", "href": "mailto:mohamedsaeed5101@gmail.com", "icon": "mail", "small": "mohamedsaeed5101@gmail.com"},
+    {"id": "linkedin", "href": "https://www.linkedin.com/in/mohamed-saeed-37bb151a9/", "icon": "linkedin", "small": "mohamed-saeed", "external": true},
+    {"id": "github", "href": "https://github.com/mohamedsaeed123456", "icon": "github", "small": "mohamedsaeed123456", "external": true},
+    {"id": "cv", "href": "Mohamed_Saeed.pdf", "icon": "download", "local": true, "download": true},
+    {"id": "khamsat", "href": "https://khamsat.com/user/mohamedsaeed1111", "icon": "briefcase", "external": true, "wide": true}
+  ]
+}

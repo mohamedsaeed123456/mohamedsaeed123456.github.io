@@ -1,0 +1,8 @@
+    <section class="skills" id="skills">
+      <div class="sec-head"><h2>{{ skills_ui.title }}</h2></div>
+      <dl>
+{% for s in skills %}
+        <div><dt>{{ s.dt }}</dt><dd>{{ s.dd }}</dd></div>
+{% endfor %}
+      </dl>
+    </section>

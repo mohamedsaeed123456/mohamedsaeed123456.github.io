@@ -1,0 +1,434 @@
+{
+  "locale": {
+    "lang": "en",
+    "dir": "ltr",
+    "og": "en_US",
+    "alt_lang": "ar",
+    "alt_href": "ar/",
+    "fonts": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700;12..96,800&family=Figtree:wght@400;500;600&display=swap",
+    "number_locale": "en-US"
+  },
+  "meta": {
+    "title": "Mohamed Saeed | Full-Stack Developer",
+    "description": "Mohamed Saeed is a full-stack developer in Cairo building SaaS platforms and APIs with Laravel, Node.js, TypeScript, Vue.js, ASP.NET Core and Spring Boot.",
+    "og_description": "Full-stack developer building SaaS platforms and APIs. Owner of the Markly backend."
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "name": "Mohamed Saeed",
+    "home_label": "Mohamed Saeed, home",
+    "nav_label": "Main",
+    "theme_to_light": "Switch to light theme",
+    "theme_to_dark": "Switch to dark theme",
+    "theme_title": "Switch theme",
+    "switch_label": "العربية",
+    "switch_title": "Read this page in Arabic"
+  },
+  "nav": {
+    "markly": "Markly",
+    "roles": "Roles",
+    "projects": "Projects",
+    "skills": "Skills",
+    "experience": "Experience",
+    "contact": "Contact"
+  },
+  "hero": {
+    "where": "Full-stack developer, Cairo",
+    "title_html": "I build the screen,<br>the API behind it,<br>and the database under it.",
+    "lead": "Five years of shipping web products with Laravel, Node.js, TypeScript and Vue.js. I own the backend of Markly, a multi-tenant SaaS platform with live customers.",
+    "cv": "Download CV",
+    "open_markly": "Open Markly",
+    "roles": "What can I do for you?",
+    "diagram_label": "Diagram: a Vue.js client sends a request to a Hono.js API, which queries PostgreSQL",
+    "caption": "How a request moves through Markly",
+    "n1_title": "Vue.js client",
+    "n1_sub": "Axios, roles, routing",
+    "n2_title": "Hono.js API",
+    "n2_sub": "JWT, RBAC, tenants",
+    "n3_title": "PostgreSQL",
+    "n3_sub": "Drizzle ORM"
+  },
+  "numbers": {
+    "label": "Key numbers"
+  },
+  "markly": {
+    "title": "Markly",
+    "intro": "A multi-tenant SaaS for marketing teams. I built it twice: first with Laravel and Vue.js, then from scratch on Node.js and PostgreSQL.",
+    "stack_title": "Stack",
+    "stack": "Node.js, TypeScript, Hono.js, PostgreSQL, Drizzle ORM, Vue.js, Docker, GitHub Actions",
+    "v1_title": "Version one",
+    "v1": "Laravel, MySQL, Vue.js",
+    "open": "Open the live app"
+  },
+  "roles": {
+    "title": "Pick a role",
+    "intro": "Choose what you are hiring for, see what I bring to it, and download the CV for that role.",
+    "tablist": "Roles",
+    "tools": "Tools",
+    "proof_title": "Where I have done it",
+    "download": "Download the CV for this role"
+  },
+  "projects": {
+    "title": "Projects",
+    "intro": "Product work, client work and practice builds.",
+    "filter_label": "Filter projects by technology"
+  },
+  "skills": {
+    "title": "Skills"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "contact": {
+    "title": "Let's talk about your next hire.",
+    "intro": "Email is the fastest way to reach me.",
+    "langs_label": "Languages"
+  },
+  "footer": {
+    "name": "Mohamed Saeed, Cairo",
+    "privacy": "Visits are counted without cookies or personal data."
+  },
+  "lists": {
+    "numbers": [
+      {
+        "id": "years",
+        "label": "years building web products"
+      },
+      {
+        "id": "users",
+        "label": "live users on Markly"
+      },
+      {
+        "id": "load",
+        "label": "users in load tests"
+      },
+      {
+        "id": "platforms",
+        "label": "social platforms integrated"
+      }
+    ],
+    "steps": [
+      {
+        "id": "auth",
+        "title": "Sign-in and invitations",
+        "desc": "JWT auth, roles, users and companies. The first thing rebuilt, because everything else depends on it."
+      },
+      {
+        "id": "tasks",
+        "title": "Tasks",
+        "desc": "A ClickUp-style board with real-time updates."
+      },
+      {
+        "id": "cms",
+        "title": "CMS and social publishing",
+        "desc": "Publish to Meta, Threads, X and LinkedIn from one place."
+      },
+      {
+        "id": "chat",
+        "title": "Chat",
+        "desc": "Real-time messaging over WebSockets."
+      },
+      {
+        "id": "billing",
+        "title": "Billing",
+        "desc": "Paddle subscriptions with plans, feature limits, usage tracking and add-ons."
+      }
+    ],
+    "roles": [
+      {
+        "id": "full",
+        "title": "Full-stack developer",
+        "sum": "I take a feature from the database to the screen and own it in production.",
+        "tags": [
+          "Laravel and Vue.js",
+          "Node.js and TypeScript",
+          "PostgreSQL and MySQL",
+          "Docker",
+          "GitHub Actions"
+        ],
+        "proof": [
+          "Markly: backend owner, part of the Vue.js frontend, rebuilt from scratch on Node.js",
+          "Fiedk: the complete Vue.js frontend of a delivery app",
+          "Medical e-commerce: storefront and admin panel in Laravel"
+        ],
+        "tab": "Full-stack developer"
+      },
+      {
+        "id": "backend",
+        "title": "Backend developer",
+        "sum": "APIs, databases and multi-tenant SaaS backends, with the stack chosen to fit the product.",
+        "tags": [
+          "Node.js and TypeScript",
+          "Laravel",
+          "ASP.NET Core",
+          "Spring Boot",
+          "PostgreSQL, MySQL, SQL Server",
+          "JWT and RBAC",
+          "Docker"
+        ],
+        "proof": [
+          "Markly: backend owner, first on Laravel and then rebuilt on Node.js and PostgreSQL",
+          "E-commerce API: transactional checkout with consistent stock",
+          "Integrations: Meta, Threads, X, LinkedIn and Paddle"
+        ],
+        "note": "My production experience is in Laravel and Node.js. ASP.NET Core and Spring Boot come from freelance and personal projects.",
+        "tab": "Backend developer"
+      },
+      {
+        "id": "frontend",
+        "title": "Frontend developer",
+        "sum": "Vue.js interfaces that talk to real APIs, with role-based routing and a clean API layer.",
+        "tags": [
+          "Vue.js",
+          "JavaScript and TypeScript",
+          "Axios",
+          "React.js",
+          "Angular",
+          "HTML and CSS"
+        ],
+        "proof": [
+          "Fiedk: the entire frontend, with user roles, service bundles and dynamic routing",
+          "Markly: frontend of several modules, complete frontend of others",
+          "Vue.js course on Udemy"
+        ],
+        "tab": "Frontend developer"
+      },
+      {
+        "id": "node",
+        "title": "Backend developer, Node.js",
+        "sum": "REST APIs and real-time services on Node.js, TypeScript and PostgreSQL, with tests and clean architecture.",
+        "tags": [
+          "Hono.js",
+          "TypeScript",
+          "PostgreSQL",
+          "Drizzle ORM",
+          "JWT and RBAC",
+          "WebSockets"
+        ],
+        "proof": [
+          "Markly rebuild: auth, invitations, tasks, chat, CMS and billing",
+          "E-commerce API: variants, inventory, checkout and transactional orders",
+          "1,000 live users, load-tested with 10,000+"
+        ],
+        "tab": "Backend, Node.js"
+      },
+      {
+        "id": "php",
+        "title": "Backend developer, PHP and Laravel",
+        "sum": "Laravel applications, admin systems and billing, from my first native PHP sites to a multi-tenant SaaS.",
+        "tags": [
+          "Laravel",
+          "Eloquent ORM",
+          "MySQL",
+          "Blade",
+          "Composer",
+          "Unit tests"
+        ],
+        "proof": [
+          "Markly version one: Laravel, MySQL and Vue.js",
+          "ConnectIN CRM: clients, leads and follow-ups",
+          "Client sites for Saudi Arabia and the UAE: cart, payments and SMS"
+        ],
+        "tab": "Backend, PHP and Laravel"
+      },
+      {
+        "id": "net",
+        "title": "Backend developer, ASP.NET Core",
+        "sum": "ASP.NET Core applications with Entity Framework Core, authentication, roles and asynchronous processing.",
+        "tags": [
+          "ASP.NET Core MVC and Web API",
+          "C#",
+          "Entity Framework Core",
+          "SQL Server",
+          "LINQ"
+        ],
+        "proof": [
+          "Social media app: authentication, real-time chat and media uploads",
+          "Freelance ASP.NET Core applications for clients"
+        ],
+        "note": "My .NET work comes from freelance and personal projects. My production experience is in Laravel and Node.js.",
+        "tab": "Backend, ASP.NET Core"
+      },
+      {
+        "id": "java",
+        "title": "Backend developer, Java Spring Boot",
+        "sum": "Spring Boot REST APIs with Spring Data JPA, role-based access, WebSockets and tests.",
+        "tags": [
+          "Java",
+          "Spring Boot",
+          "Spring Data JPA",
+          "Hibernate",
+          "MySQL",
+          "JUnit"
+        ],
+        "proof": [
+          "Employee management in Spring Boot and Angular: roles, WebSocket notifications and tests",
+          "Freelance Spring Boot applications for clients"
+        ],
+        "note": "My Java work comes from freelance and personal projects. My production experience is in Laravel and Node.js.",
+        "tab": "Backend, Java Spring Boot"
+      }
+    ],
+    "filters": [
+      {
+        "id": "all",
+        "label": "All"
+      },
+      {
+        "id": "node",
+        "label": "Node.js"
+      },
+      {
+        "id": "php",
+        "label": "PHP"
+      },
+      {
+        "id": "vue",
+        "label": "Vue.js"
+      },
+      {
+        "id": "net",
+        "label": ".NET"
+      },
+      {
+        "id": "java",
+        "label": "Java"
+      }
+    ],
+    "projects": [
+      {
+        "id": "markly",
+        "name": "Markly",
+        "desc": "Multi-tenant SaaS: tasks, chat, forms, projects, CMS with social publishing, billing. Live."
+      },
+      {
+        "id": "fiedk",
+        "name": "Fiedk",
+        "desc": "Delivery and services mobile app, similar to Talabat. I built the whole frontend: user roles, service bundles, dynamic routing and a modular API layer."
+      },
+      {
+        "id": "ecommerce",
+        "name": "E-commerce API",
+        "desc": "Catalog, variants, inventory, cart, checkout and orders, with transactions that keep orders and stock consistent."
+      },
+      {
+        "id": "medical",
+        "name": "Medical e-commerce",
+        "desc": "Product search and filtering, cart, guest checkout with stock validation, and an admin panel with an observer-based change log."
+      },
+      {
+        "id": "crm",
+        "name": "ConnectIN CRM",
+        "desc": "Clients, leads and follow-up activities with role-based access. Built for OSolutions."
+      },
+      {
+        "id": "social",
+        "name": "Social media app",
+        "desc": "Authentication, real-time chat, and photo and video uploads."
+      },
+      {
+        "id": "employees",
+        "name": "Employee management",
+        "desc": "Employees, departments and roles with role-based access, WebSocket notifications and automated tests."
+      },
+      {
+        "id": "sites",
+        "name": "Client websites",
+        "desc": "A TV package subscription site with cart, payments and SMS, a community children's care center site for a Saudi client, and a shopping cart."
+      }
+    ],
+    "skills": [
+      {
+        "id": "languages",
+        "dt": "Languages"
+      },
+      {
+        "id": "backend",
+        "dt": "Backend"
+      },
+      {
+        "id": "frontend",
+        "dt": "Frontend"
+      },
+      {
+        "id": "data",
+        "dt": "Data"
+      },
+      {
+        "id": "architecture",
+        "dt": "Architecture"
+      },
+      {
+        "id": "integrations",
+        "dt": "Integrations"
+      },
+      {
+        "id": "delivery",
+        "dt": "Delivery"
+      },
+      {
+        "id": "ai",
+        "dt": "With AI",
+        "dd": "Claude Code, Cursor, GitHub Copilot, ChatGPT, with every change reviewed"
+      }
+    ],
+    "experience": [
+      {
+        "id": "osolutions",
+        "time": "Dec 2023 to now",
+        "title": "Full-stack developer, OSolutions",
+        "desc_html": "Owner of the Markly backend. Contributed to the Vue.js frontend. Rebuilt the platform on Node.js, TypeScript and PostgreSQL. Containers and CI/CD with Docker and GitHub Actions."
+      },
+      {
+        "id": "freelance",
+        "time": "Sep 2020 to now",
+        "title": "Freelance full-stack developer",
+        "desc_html": "Web applications and websites for clients in Saudi Arabia and the UAE. Started with native PHP, then moved to Laravel, ASP.NET Core and Spring Boot. Profile on <a href=\"{khamsat}\" target=\"_blank\" rel=\"noopener\">Khamsat</a>."
+      },
+      {
+        "id": "university",
+        "time": "2018 to 2022",
+        "title": "Helwan University",
+        "desc_html": "Bachelor of Computers and Artificial Intelligence, Computer Science. Excellent with honors, GPA 3.55 of 4.00."
+      }
+    ],
+    "langs": [
+      {
+        "id": "ar",
+        "name": "Arabic",
+        "level": "Native",
+        "aria": "Arabic: native, 5 of 5"
+      },
+      {
+        "id": "en",
+        "name": "English",
+        "level": "Advanced",
+        "aria": "English: advanced, 4 of 5"
+      }
+    ],
+    "links": [
+      {
+        "id": "email",
+        "name": "Email"
+      },
+      {
+        "id": "linkedin",
+        "name": "LinkedIn"
+      },
+      {
+        "id": "github",
+        "name": "GitHub"
+      },
+      {
+        "id": "cv",
+        "name": "My CV",
+        "small": "Download PDF, 2 pages"
+      },
+      {
+        "id": "khamsat",
+        "name": "Khamsat",
+        "small": "My freelance profile and client work"
+      }
+    ]
+  }
+}

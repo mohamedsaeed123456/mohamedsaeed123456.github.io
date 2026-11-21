@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="{{ locale.lang }}" dir="{{ locale.dir }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ meta.title }}</title>
+  <meta name="description" content="{{ meta.description }}">
+  <meta name="theme-color" content="#0B1A24">
+  <link rel="canonical" href="{{ page_url }}">
+  <link rel="alternate" hreflang="en" href="{{ url_en }}">
+  <link rel="alternate" hreflang="ar" href="{{ url_ar }}">
+  <link rel="alternate" hreflang="x-default" href="{{ url_en }}">
+  <meta property="og:title" content="{{ meta.title }}">
+  <meta property="og:description" content="{{ meta.og_description }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ page_url }}">
+  <meta property="og:locale" content="{{ locale.og }}">
+  <script>
+    (function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t='dark'}document.documentElement.setAttribute('data-theme',t)}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();
+  </script>
+  <link rel="icon" href="{{ base }}assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="{{ locale.fonts }}" rel="stylesheet">
+  <link rel="stylesheet" href="{{ base }}assets/site.css">
+</head>
+<body>
+  <a class="skip" href="#main">{{ ui.skip }}</a>
+{% include header %}
+  <main id="main">
+{% include hero %}
+{% include numbers %}
+{% include markly %}
+{% include roles %}
+{% include projects %}
+{% include skills %}
+{% include experience %}
+{% include contact %}
+  </main>
+{% include footer %}
+  <script src="{{ base }}assets/config.js"></script>
+  <script src="{{ base }}assets/site.js"></script>
+</body>
+</html>

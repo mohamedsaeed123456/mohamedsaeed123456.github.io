@@ -1,0 +1,39 @@
+.markly-grid { display: grid; grid-template-columns: 1.4fr .8fr; gap: 36px; align-items: start; }
+
+.steps { position: relative; margin: 0; padding: 0; list-style: none; counter-reset: step; }
+.steps::before {
+  content: "";
+  position: absolute;
+  inset-inline-start: 11px;
+  top: 10px;
+  bottom: 10px;
+  width: 2px;
+  background: linear-gradient(var(--saffron), var(--line));
+}
+.steps li { position: relative; padding: 0 0 26px; padding-inline-start: 44px; counter-increment: step; }
+.steps li::before {
+  content: counter(step);
+  position: absolute;
+  inset-inline-start: 0;
+  top: 2px;
+  width: 24px;
+  height: 24px;
+  border: 2px solid var(--saffron);
+  border-radius: 50%;
+  background: var(--ink);
+  color: var(--saffron);
+  font: 700 .8rem/20px var(--font-display);
+  text-align: center;
+}
+.steps strong { display: block; margin-block-end: 2px; font: 700 1.2rem var(--font-display); }
+.steps span { color: var(--mute); }
+
+.stackbox {
+  padding: 26px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius-m);
+  background: var(--panel);
+  transition: background-color .3s, border-color .3s;
+}
+.stackbox h3 { margin-block-end: 6px; color: var(--saffron); font-size: 1.05rem; }
+.stackbox p { margin-block-end: 20px; color: var(--sand); }

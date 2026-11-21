@@ -1,0 +1,19 @@
+  <header class="bar">
+    <a class="brand" href="#top" aria-label="{{ ui.home_label }}">
+      {{ icons.logo|safe }}
+      <span>{{ ui.name }}</span>
+    </a>
+    <nav aria-label="{{ ui.nav_label }}">
+      <a href="#markly">{{ nav.markly }}</a>
+      <a href="#roles">{{ nav.roles }}</a>
+      <a href="#projects">{{ nav.projects }}</a>
+      <a href="#skills">{{ nav.skills }}</a>
+      <a href="#experience">{{ nav.experience }}</a>
+      <a class="lang-switch" href="{{ locale.alt_href }}" hreflang="{{ locale.alt_lang }}" lang="{{ locale.alt_lang }}" title="{{ ui.switch_title }}">{{ ui.switch_label }}</a>
+      <button class="theme" id="theme" type="button" aria-label="{{ ui.theme_to_light }}" title="{{ ui.theme_title }}" data-label-light="{{ ui.theme_to_light }}" data-label-dark="{{ ui.theme_to_dark }}">
+        {{ icons.moon|safe }}
+        {{ icons.sun|safe }}
+      </button>
+      <a class="pill" href="#contact">{{ nav.contact }}</a>
+    </nav>
+  </header>

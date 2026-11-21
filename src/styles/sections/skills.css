@@ -1,0 +1,4 @@
+.skills dl { display: grid; grid-template-columns: repeat(2, 1fr); gap: 0 56px; margin: 0; }
+.skills dl > div { padding-block: 18px; border-block-start: 1px solid var(--line); }
+.skills dt { margin-block-end: 4px; color: var(--saffron); font: 700 1.05rem var(--font-display); }
+.skills dd { margin: 0; }

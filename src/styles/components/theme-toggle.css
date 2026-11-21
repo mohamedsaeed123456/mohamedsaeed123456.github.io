@@ -1,0 +1,18 @@
+.theme {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--panel);
+  color: var(--sand);
+  cursor: pointer;
+  transition: border-color .2s, transform .3s, background-color .3s;
+}
+.theme:hover { border-color: var(--saffron); transform: rotate(18deg); }
+
+.theme .i-sun { display: none; }
+:root[data-theme="light"] .theme .i-sun { display: block; }
+:root[data-theme="light"] .theme .i-moon { display: none; }

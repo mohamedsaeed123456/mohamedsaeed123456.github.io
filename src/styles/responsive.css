@@ -1,0 +1,20 @@
+@media (max-width: 900px) {
+  .hero { grid-template-columns: 1fr; min-height: 0; }
+  .markly-grid, .roles-ui { grid-template-columns: 1fr; }
+  .tablist { flex-direction: row; flex-wrap: wrap; }
+
+  .numbers { grid-template-columns: repeat(2, 1fr); }
+  .numbers > div:nth-child(3) { padding-inline-start: 0; border-inline-start: 0; }
+  .numbers > div:nth-child(n+3) { border-block-start: 1px solid var(--line); }
+
+  .rows li { grid-template-columns: 1fr; gap: 8px; }
+  .skills dl { grid-template-columns: 1fr; }
+  .timeline li { grid-template-columns: 1fr; gap: 6px; }
+  .contact-grid { grid-template-columns: 1fr; gap: 36px; }
+  .bar nav a:not(.pill):not(.lang-switch) { display: none; }
+}
+
+@media (max-width: 520px) {
+  .links { grid-template-columns: 1fr; }
+  .bar nav { gap: 12px; }
+}

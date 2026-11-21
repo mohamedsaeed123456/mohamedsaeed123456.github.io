@@ -1,0 +1,6 @@
+.timeline { margin: 0; padding: 0; list-style: none; }
+.timeline li { display: grid; grid-template-columns: 190px 1fr; gap: 24px; padding-block: 26px; border-block-start: 1px solid var(--line); }
+.timeline time { color: var(--saffron); font-weight: 600; }
+.timeline h3 { margin-block-end: 6px; font-size: 1.35rem; }
+.timeline p { max-width: 46em; color: var(--mute); }
+.timeline a { color: var(--sand); }

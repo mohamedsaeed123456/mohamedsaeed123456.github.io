@@ -1,0 +1,57 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 84px; }
+
+body {
+  margin: 0;
+  background: var(--ink);
+  color: var(--sand);
+  font: 400 1.0625rem/1.65 var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  transition: background-color .3s, color .3s;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background:
+    radial-gradient(900px 500px at 82% -8%, var(--glow-1), transparent 60%),
+    radial-gradient(700px 500px at -10% 40%, var(--glow-2), transparent 60%);
+}
+
+a { color: inherit; }
+p { margin: 0; }
+
+h1, h2, h3 {
+  margin: 0;
+  font-family: var(--font-display);
+  line-height: 1.08;
+  letter-spacing: -.02em;
+}
+
+:focus-visible {
+  outline: 2px solid var(--saffron);
+  outline-offset: 3px;
+  border-radius: 6px;
+}
+
+section { padding: 96px var(--gutter); }
+
+.sec-head { max-width: 640px; margin-block-end: 40px; }
+.sec-head h2 { font-size: clamp(2rem, 4.2vw, 3rem); font-weight: 800; }
+.sec-head p { color: var(--mute); margin-block-start: 14px; }
+
+.skip {
+  position: absolute;
+  inset-inline-start: -999px;
+  top: 8px;
+  z-index: 50;
+  padding: 8px 14px;
+  border-radius: 8px;
+  background: var(--saffron);
+  color: var(--ink);
+}
+.skip:focus { inset-inline-start: 12px; }
