@@ -11,10 +11,15 @@
   <link rel="alternate" hreflang="ar" href="https://mohamedsaeed123456.github.io/ar/">
   <link rel="alternate" hreflang="x-default" href="https://mohamedsaeed123456.github.io/">
   <meta property="og:title" content="محمد سعيد | مطوّر Full-Stack">
-  <meta property="og:description" content="مطوّر Full-Stack يبني منصات SaaS وواجهات API. مسؤول عن الـ backend الخاص بمنصة Markly.">
+  <meta property="og:description" content="مطوّر Full-Stack يبني منصات SaaS وواجهات API.">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://mohamedsaeed123456.github.io/ar/">
   <meta property="og:locale" content="ar_EG">
+  <meta property="og:image" content="https://mohamedsaeed123456.github.io/assets/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="Mohamed Saeed, Full-Stack Developer">
+  <meta name="twitter:card" content="summary_large_image">
   <script>
     (function(){try{var t=localStorage.getItem('theme');if(t!=='light'&&t!=='dark'){t='dark'}document.documentElement.setAttribute('data-theme',t)}catch(e){document.documentElement.setAttribute('data-theme','dark')}})();
   </script>
@@ -32,7 +37,6 @@
       <span>محمد سعيد</span>
     </a>
     <nav aria-label="التنقل الرئيسي">
-      <a href="#markly">Markly</a>
       <a href="#roles">الأدوار</a>
       <a href="#projects">المشاريع</a>
       <a href="#skills">المهارات</a>
@@ -50,15 +54,14 @@
       <div class="hero-copy">
         <p class="where">مطوّر Full-Stack، القاهرة</p>
         <h1>أبني الواجهة،<br>والـ API الذي يخدمها،<br>وقاعدة البيانات التي تحتها.</h1>
-        <p class="lead">خمس سنوات في بناء منتجات الويب باستخدام Laravel وNode.js وTypeScript وVue.js. أتولّى الـ backend الخاص بمنصة Markly، وهي منصة SaaS متعددة المستأجرين (multi-tenant) يستخدمها عملاء فعليون.</p>
+        <p class="lead">خمس سنوات في بناء منتجات الويب باستخدام Laravel وNode.js وTypeScript وVue.js. أبني الـ backend لمنصة SaaS متعددة المستأجرين (multi-tenant) يستخدمها عملاء فعليون.</p>
         <div class="actions">
           <a class="btn primary" href="../Mohamed_Saeed.pdf" download>تحميل السيرة الذاتية</a>
-          <a class="btn" href="https://app.markly.digital/" target="_blank" rel="noopener">افتح Markly</a>
           <a class="btn ghost" href="#roles">كيف أفيدك؟</a>
         </div>
       </div>
 
-      <figure class="flow" aria-label="رسم توضيحي: عميل Vue.js يرسل طلبًا إلى API مبني بـ Hono.js، والـ API يستعلم من PostgreSQL">
+      <figure class="flow" aria-label="رسم توضيحي: عميل Vue.js يرسل طلبًا إلى REST API، والـ API يستعلم من PostgreSQL">
         <svg viewBox="0 0 520 420" aria-hidden="true" dir="ltr">
           <defs>
             <linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#F2B84B"/><stop offset="1" stop-color="#7FC8A9"/></linearGradient>
@@ -69,7 +72,7 @@
           <path id="p2b" class="wire wire-back" d="M284 340 V256"/>
 
           <g class="node n1"><rect x="150" y="44" width="220" height="68" rx="14"/><text x="260" y="74" text-anchor="middle" class="t1">عميل Vue.js</text><text x="260" y="96" text-anchor="middle" class="t2">Axios والأدوار والتوجيه</text></g>
-          <g class="node n2"><rect x="150" y="196" width="220" height="60" rx="14"/><text x="260" y="224" text-anchor="middle" class="t1">Hono.js API</text><text x="260" y="244" text-anchor="middle" class="t2">JWT وRBAC والمستأجرون</text></g>
+          <g class="node n2"><rect x="150" y="196" width="220" height="60" rx="14"/><text x="260" y="224" text-anchor="middle" class="t1">REST API</text><text x="260" y="244" text-anchor="middle" class="t2">المصادقة والأدوار والتحقق</text></g>
           <g class="node n3"><rect x="150" y="340" width="220" height="68" rx="14"/><text x="260" y="370" text-anchor="middle" class="t1">PostgreSQL</text><text x="260" y="392" text-anchor="middle" class="t2">Drizzle ORM</text></g>
 
           <circle r="6" fill="url(#g)" class="pkt" opacity="0"><animateMotion dur="2.6s" repeatCount="indefinite" begin="0.4s"><mpath href="#p1"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.6s" begin="0.4s" repeatCount="indefinite"/></circle>
@@ -77,47 +80,19 @@
           <circle r="5" fill="#7FC8A9" class="pkt" opacity="0"><animateMotion dur="2.6s" repeatCount="indefinite" begin="1.6s"><mpath href="#p2b"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.6s" begin="1.6s" repeatCount="indefinite"/></circle>
           <circle r="5" fill="#7FC8A9" class="pkt" opacity="0"><animateMotion dur="2.6s" repeatCount="indefinite" begin="2.2s"><mpath href="#p1b"/></animateMotion><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.12;0.88;1" dur="2.6s" begin="2.2s" repeatCount="indefinite"/></circle>
         </svg>
-        <figcaption>كيف يمرّ الطلب داخل Markly</figcaption>
+        <figcaption>مسار طلب نموذجي</figcaption>
       </figure>
     </section>
     <section class="numbers" aria-label="أرقام رئيسية">
 
       <div><b dir="ltr" data-count="5" data-suffix="+">5+</b><span>سنوات في بناء منتجات الويب</span></div>
 
-      <div><b dir="ltr" data-count="1000" data-suffix="">1,000</b><span>مستخدم فعلي على Markly</span></div>
+      <div><b dir="ltr" data-count="8" data-suffix="">8</b><span>مشاريع نفّذتها</span></div>
 
-      <div><b dir="ltr" data-count="10000" data-suffix="+">10,000+</b><span>مستخدم في اختبارات الحمل</span></div>
+      <div><b dir="ltr" data-count="4" data-suffix="">4</b><span>تقنيات backend أستخدمها</span></div>
 
-      <div><b dir="ltr" data-count="4" data-suffix="">4</b><span>منصات تواصل اجتماعي تم ربطها</span></div>
+      <div><b dir="ltr" data-count="3" data-suffix="">3</b><span>قواعد بيانات أتعامل معها</span></div>
 
-    </section>
-    <section class="markly" id="markly">
-      <div class="sec-head">
-        <h2>Markly</h2>
-        <p>منصة SaaS متعددة المستأجرين لفرق التسويق. بنيتها مرتين: أولًا بـ Laravel وVue.js، ثم من الصفر على Node.js وPostgreSQL.</p>
-      </div>
-      <div class="markly-grid">
-        <ol class="steps">
-
-          <li><strong>تسجيل الدخول والدعوات</strong><span>مصادقة JWT والأدوار والمستخدمون والشركات. أول ما أعدت بناءه، لأن كل شيء آخر يعتمد عليه.</span></li>
-
-          <li><strong>المهام</strong><span>لوحة مهام على طراز ClickUp مع تحديثات لحظية.</span></li>
-
-          <li><strong>إدارة المحتوى والنشر الاجتماعي</strong><span>النشر على Meta وThreads وX وLinkedIn من مكان واحد.</span></li>
-
-          <li><strong>الدردشة</strong><span>مراسلة لحظية عبر WebSockets.</span></li>
-
-          <li><strong>الفوترة</strong><span>اشتراكات Paddle مع الباقات وحدود الميزات وتتبّع الاستخدام والإضافات.</span></li>
-
-        </ol>
-        <aside class="stackbox">
-          <h3>التقنيات</h3>
-          <p>Node.js، TypeScript، Hono.js، PostgreSQL، Drizzle ORM، Vue.js، Docker، GitHub Actions</p>
-          <h3>الإصدار الأول</h3>
-          <p>Laravel، MySQL، Vue.js</p>
-          <a class="btn primary" href="https://app.markly.digital/" target="_blank" rel="noopener">افتح التطبيق الحي</a>
-        </aside>
-      </div>
     </section>
     <section class="roles" id="roles">
       <div class="sec-head">
@@ -144,7 +119,7 @@
         </div>
         <div class="panel" id="panel" role="tabpanel" aria-live="polite" tabindex="0"></div>
       </div>
-      <script type="application/json" id="roles-data">{"labels": {"tools": "الأدوات", "proof_title": "أين نفّذت ذلك", "download": "تحميل السيرة الذاتية لهذا الدور"}, "roles": {"full": {"title": "مطوّر Full-Stack", "sum": "أنقل الميزة من قاعدة البيانات إلى الشاشة، وأتحمّل مسؤوليتها في بيئة الإنتاج.", "tags": ["Laravel وVue.js", "Node.js وTypeScript", "PostgreSQL وMySQL", "Docker", "GitHub Actions"], "proof": ["Markly: مسؤول الـ backend وجزء من واجهة Vue.js، وأعدت بناءه من الصفر على Node.js", "Fiedk: واجهة Vue.js الكاملة لتطبيق توصيل", "متجر طبي إلكتروني: المتجر ولوحة الإدارة بـ Laravel"], "href": "../cv/Mohamed_Saeed_Full-Stack.pdf"}, "backend": {"title": "مطوّر Backend", "sum": "واجهات API وقواعد بيانات وأنظمة SaaS متعددة المستأجرين، مع اختيار التقنية المناسبة لكل منتج.", "tags": ["Node.js وTypeScript", "Laravel", "ASP.NET Core", "Spring Boot", "PostgreSQL وMySQL وSQL Server", "JWT وRBAC", "Docker"], "proof": ["Markly: مسؤول الـ backend، بدأ بـ Laravel ثم أعدت بناءه على Node.js وPostgreSQL", "API للتجارة الإلكترونية: إتمام طلب بمعاملات (transactions) تحافظ على اتساق المخزون", "التكاملات: Meta وThreads وX وLinkedIn وPaddle"], "note": "خبرتي الإنتاجية في Laravel وNode.js. أما ASP.NET Core وSpring Boot فمن العمل الحر والمشاريع الشخصية.", "href": "../cv/Mohamed_Saeed_Backend.pdf"}, "frontend": {"title": "مطوّر Frontend", "sum": "واجهات Vue.js تتعامل مع واجهات API حقيقية، مع توجيه حسب الأدوار وطبقة API منظّمة.", "tags": ["Vue.js", "JavaScript وTypeScript", "Axios", "React.js", "Angular", "HTML وCSS"], "proof": ["Fiedk: الواجهة الكاملة، بأدوار المستخدمين وباقات الخدمات والتوجيه الديناميكي", "Markly: واجهة عدة وحدات، وواجهة وحدات أخرى كاملة", "دورة Vue.js على Udemy"], "href": "../cv/Mohamed_Saeed_Frontend.pdf"}, "node": {"title": "مطوّر Backend، Node.js", "sum": "واجهات REST وخدمات لحظية على Node.js وTypeScript وPostgreSQL، مع اختبارات وهندسة نظيفة.", "tags": ["Hono.js", "TypeScript", "PostgreSQL", "Drizzle ORM", "JWT وRBAC", "WebSockets"], "proof": ["إعادة بناء Markly: المصادقة والدعوات والمهام والدردشة وإدارة المحتوى والفوترة", "API للتجارة الإلكترونية: المتغيرات والمخزون وإتمام الطلب والطلبات بمعاملات", "1,000 مستخدم فعلي، واختبار حمل بأكثر من 10,000"], "href": "../cv/Mohamed_Saeed_Backend-NodeJS.pdf"}, "php": {"title": "مطوّر Backend، PHP وLaravel", "sum": "تطبيقات Laravel وأنظمة إدارة وفوترة، من أول مواقعي بـ PHP الخام إلى منصة SaaS متعددة المستأجرين.", "tags": ["Laravel", "Eloquent ORM", "MySQL", "Blade", "Composer", "اختبارات الوحدة"], "proof": ["الإصدار الأول من Markly: Laravel وMySQL وVue.js", "ConnectIN CRM: العملاء والعملاء المحتملون والمتابعات", "مواقع لعملاء في السعودية والإمارات: سلة شراء ومدفوعات ورسائل SMS"], "href": "../cv/Mohamed_Saeed_Backend-PHP-Laravel.pdf"}, "net": {"title": "مطوّر Backend، ASP.NET Core", "sum": "تطبيقات ASP.NET Core مع Entity Framework Core والمصادقة والأدوار والمعالجة غير المتزامنة.", "tags": ["ASP.NET Core MVC وWeb API", "C#", "Entity Framework Core", "SQL Server", "LINQ"], "proof": ["تطبيق تواصل اجتماعي: مصادقة ودردشة لحظية ورفع وسائط", "تطبيقات ASP.NET Core لعملاء في العمل الحر"], "note": "عملي مع .NET من العمل الحر والمشاريع الشخصية. خبرتي الإنتاجية في Laravel وNode.js.", "href": "../cv/Mohamed_Saeed_Backend-DotNet.pdf"}, "java": {"title": "مطوّر Backend، Java Spring Boot", "sum": "واجهات REST بـ Spring Boot مع Spring Data JPA وصلاحيات حسب الدور وWebSockets واختبارات.", "tags": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "JUnit"], "proof": ["إدارة الموظفين بـ Spring Boot وAngular: أدوار وإشعارات WebSocket واختبارات", "تطبيقات Spring Boot لعملاء في العمل الحر"], "note": "عملي مع Java من العمل الحر والمشاريع الشخصية. خبرتي الإنتاجية في Laravel وNode.js.", "href": "../cv/Mohamed_Saeed_Backend-Java.pdf"}}}</script>
+      <script type="application/json" id="roles-data">{"labels": {"tools": "الأدوات", "proof_title": "أين نفّذت ذلك", "download": "تحميل السيرة الذاتية لهذا الدور"}, "roles": {"full": {"title": "مطوّر Full-Stack", "sum": "أنقل الميزة من قاعدة البيانات إلى الشاشة، وأتحمّل مسؤوليتها في بيئة الإنتاج.", "tags": ["Laravel وVue.js", "Node.js وTypeScript", "PostgreSQL وMySQL", "Docker", "GitHub Actions"], "proof": ["منصة SaaS متعددة المستأجرين: الـ backend وجزء من واجهة Vue.js، وأعدت بناءها من الصفر على Node.js", "Fiedk: واجهة Vue.js الكاملة لتطبيق توصيل", "متجر طبي إلكتروني: المتجر ولوحة الإدارة بـ Laravel"], "href": "../cv/Mohamed_Saeed_Full-Stack.pdf"}, "backend": {"title": "مطوّر Backend", "sum": "واجهات API وقواعد بيانات وأنظمة SaaS متعددة المستأجرين، مع اختيار التقنية المناسبة لكل منتج.", "tags": ["Node.js وTypeScript", "Laravel", "ASP.NET Core", "Spring Boot", "PostgreSQL وMySQL وSQL Server", "JWT وRBAC", "Docker"], "proof": ["منصة SaaS متعددة المستأجرين: الـ backend، بدأ بـ Laravel ثم أعدت بناءه على Node.js وPostgreSQL", "API للتجارة الإلكترونية: إتمام طلب بمعاملات (transactions) تحافظ على اتساق المخزون", "التكاملات: Meta وThreads وX وLinkedIn وPaddle"], "note": "خبرتي الإنتاجية في Laravel وNode.js. أما ASP.NET Core وSpring Boot فمن العمل الحر والمشاريع الشخصية.", "href": "../cv/Mohamed_Saeed_Backend.pdf"}, "frontend": {"title": "مطوّر Frontend", "sum": "واجهات Vue.js تتعامل مع واجهات API حقيقية، مع توجيه حسب الأدوار وطبقة API منظّمة.", "tags": ["Vue.js", "JavaScript وTypeScript", "Axios", "React.js", "Angular", "HTML وCSS"], "proof": ["Fiedk: الواجهة الكاملة، بأدوار المستخدمين وباقات الخدمات والتوجيه الديناميكي", "منصة SaaS: واجهة عدة وحدات، وواجهة وحدات أخرى كاملة", "دورة Vue.js على Udemy"], "href": "../cv/Mohamed_Saeed_Frontend.pdf"}, "node": {"title": "مطوّر Backend، Node.js", "sum": "واجهات REST وخدمات لحظية على Node.js وTypeScript وPostgreSQL، مع اختبارات وهندسة نظيفة.", "tags": ["Hono.js", "TypeScript", "PostgreSQL", "Drizzle ORM", "JWT وRBAC", "WebSockets"], "proof": ["إعادة بناء منصة SaaS: المصادقة والأدوار والميزات اللحظية والفوترة", "API للتجارة الإلكترونية: المتغيرات والمخزون وإتمام الطلب والطلبات بمعاملات", "اختبار الـ backend تحت الحمل"], "href": "../cv/Mohamed_Saeed_Backend-NodeJS.pdf"}, "php": {"title": "مطوّر Backend، PHP وLaravel", "sum": "تطبيقات Laravel وأنظمة إدارة وفوترة، من أول مواقعي بـ PHP الخام إلى منصة SaaS متعددة المستأجرين.", "tags": ["Laravel", "Eloquent ORM", "MySQL", "Blade", "Composer", "اختبارات الوحدة"], "proof": ["الإصدار الأول من منصة SaaS: Laravel وMySQL وVue.js", "نظام CRM: العملاء والعملاء المحتملون والمتابعات", "مواقع لعملاء في السعودية والإمارات: سلة شراء ومدفوعات ورسائل SMS"], "href": "../cv/Mohamed_Saeed_Backend-PHP-Laravel.pdf"}, "net": {"title": "مطوّر Backend، ASP.NET Core", "sum": "تطبيقات ASP.NET Core مع Entity Framework Core والمصادقة والأدوار والمعالجة غير المتزامنة.", "tags": ["ASP.NET Core MVC وWeb API", "C#", "Entity Framework Core", "SQL Server", "LINQ"], "proof": ["تطبيق تواصل اجتماعي: مصادقة ودردشة لحظية ورفع وسائط", "تطبيقات ASP.NET Core لعملاء في العمل الحر"], "note": "عملي مع .NET من العمل الحر والمشاريع الشخصية. خبرتي الإنتاجية في Laravel وNode.js.", "href": "../cv/Mohamed_Saeed_Backend-DotNet.pdf"}, "java": {"title": "مطوّر Backend، Java Spring Boot", "sum": "واجهات REST بـ Spring Boot مع Spring Data JPA وصلاحيات حسب الدور وWebSockets واختبارات.", "tags": ["Java", "Spring Boot", "Spring Data JPA", "Hibernate", "MySQL", "JUnit"], "proof": ["إدارة الموظفين بـ Spring Boot وAngular: أدوار وإشعارات WebSocket واختبارات", "تطبيقات Spring Boot لعملاء في العمل الحر"], "note": "عملي مع Java من العمل الحر والمشاريع الشخصية. خبرتي الإنتاجية في Laravel وNode.js.", "href": "../cv/Mohamed_Saeed_Backend-Java.pdf"}}}</script>
     </section>
     <section class="work" id="projects">
       <div class="sec-head">
@@ -168,7 +143,7 @@
       </div>
       <ul class="rows" id="rows">
 
-        <li data-tags="node php vue"><div><h3>Markly</h3><p>منصة SaaS متعددة المستأجرين: مهام ودردشة ونماذج ومشاريع وإدارة محتوى مع نشر اجتماعي وفوترة. تعمل فعليًا.</p></div><span class="tech" dir="ltr">Node.js, TypeScript, Hono.js, PostgreSQL, Vue.js</span></li>
+        <li data-tags="node php vue"><div><h3>منصة SaaS</h3><p>منصة SaaS متعددة المستأجرين لفرق التسويق: الـ backend وجزء من الواجهة. يستخدمها عملاء فعليون.</p></div><span class="tech" dir="ltr">Node.js, TypeScript, Hono.js, PostgreSQL, Vue.js</span></li>
 
         <li data-tags="vue"><div><h3>Fiedk</h3><p>تطبيق جوال للتوصيل والخدمات يشبه Talabat. بنيت الواجهة بالكامل: أدوار المستخدمين وباقات الخدمات والتوجيه الديناميكي وطبقة API معيارية.</p></div><span class="tech" dir="ltr">Vue.js, Axios, REST APIs</span></li>
 
@@ -176,7 +151,7 @@
 
         <li data-tags="php"><div><h3>متجر طبي إلكتروني</h3><p>بحث وتصفية للمنتجات، وسلة، وإتمام طلب للزائر مع التحقق من المخزون، ولوحة إدارة بسجل تغييرات قائم على نمط Observer.</p></div><span class="tech" dir="ltr">Laravel, Blade, MySQL</span></li>
 
-        <li data-tags="php"><div><h3>ConnectIN CRM</h3><p>العملاء والعملاء المحتملون وأنشطة المتابعة مع صلاحيات حسب الدور. بُني لصالح OSolutions.</p></div><span class="tech" dir="ltr">Laravel, Blade, MySQL</span></li>
+        <li data-tags="php"><div><h3>نظام CRM</h3><p>العملاء والعملاء المحتملون وأنشطة المتابعة مع صلاحيات حسب الدور.</p></div><span class="tech" dir="ltr">Laravel, Blade, MySQL</span></li>
 
         <li data-tags="net"><div><h3>تطبيق تواصل اجتماعي</h3><p>مصادقة ودردشة لحظية ورفع الصور والفيديو.</p></div><span class="tech" dir="ltr">ASP.NET Core MVC, Entity Framework Core</span></li>
 
@@ -212,7 +187,7 @@
       <div class="sec-head"><h2>الخبرة</h2></div>
       <ol class="timeline">
 
-        <li><time>ديسمبر 2023 – الآن</time><div><h3>مطوّر Full-Stack، OSolutions</h3><p>مسؤول عن الـ backend الخاص بمنصة Markly، وساهمت في واجهة Vue.js. أعدت بناء المنصة على Node.js وTypeScript وPostgreSQL، وأدرت الحاويات والتكامل والنشر المستمر (CI/CD) بـ Docker وGitHub Actions.</p></div></li>
+        <li><time>ديسمبر 2023 – الآن</time><div><h3>مطوّر Full-Stack، OSolutions</h3><p>مطوّر backend لمنصة SaaS متعددة المستأجرين، وساهمت في واجهة Vue.js. أعدت بناء المنصة على Node.js وTypeScript وPostgreSQL، وأدرت الحاويات والتكامل والنشر المستمر (CI/CD) بـ Docker وGitHub Actions.</p></div></li>
 
         <li><time>سبتمبر 2020 – الآن</time><div><h3>مطوّر Full-Stack مستقل</h3><p>تطبيقات ومواقع ويب لعملاء في السعودية والإمارات. بدأت بـ PHP الخام، ثم انتقلت إلى Laravel وASP.NET Core وSpring Boot. ملفي على <a href="https://khamsat.com/user/mohamedsaeed1111" target="_blank" rel="noopener">خمسات</a>.</p></div></li>
 
